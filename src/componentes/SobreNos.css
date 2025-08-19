@@ -1,0 +1,245 @@
+
+ /* css tela home sobre nós */
+.container_Sobrenos {
+  height: 100vh; 
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url('../assets/imagemTeste.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+.looping_sobreNos {
+ font-family: 'RocaTwoBold', sans-serif;
+  position: absolute;
+  bottom: 1%;
+  width: 200%;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: white;
+  pointer-events: none;
+  z-index: 1;
+  background-color: #ee729d;
+  padding: 2%;
+  
+}
+
+.titulo {
+
+  position: absolute;
+  top: 10%;
+  width: 200%;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 6rem;
+  font-weight: 500;
+  color: white;
+  pointer-events: none;
+  z-index: 1;
+  padding: 3%;
+  font-family: 'RocaTwoBold', sans-serif;
+}
+
+.looping {
+  display: inline-block;
+  animation: scroll-left 8s linear infinite;
+}
+
+.looping_sobreNos .looping {
+  animation: scroll-right 8s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+/* css sobre o grupo */
+
+
+.quatro_de_noventa{
+  background-color: #f6efe9;
+ padding-top: 3rem; 
+  padding-bottom: 8rem;
+ 
+
+}
+.titulo_Grupo1{
+  font-size: 5rem;
+  color: #393939;
+  padding-top: 7%;
+  padding-left: 7%;
+  font-family: 'RocaTwoBold', sans-serif;
+}
+
+.titulo_Grupo2{
+  font-size: 5rem;
+  padding-left: 7%;
+  margin-top: -3%;
+  color: #393939;
+  font-family: 'RocaTwoBold', sans-serif;
+}
+
+.texto_Grupo{
+  font-size: 1.5rem;
+  color: #393939;
+  padding: 7%;
+  margin-top: -5%;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo_grupo{
+  margin-top: -25%; 
+  margin-left: 70%;
+  width: 20%;
+
+}
+
+/* Integrante */
+
+
+.titulo_int {
+  text-align: center;
+  font-size: 5rem;
+  color: #393939;
+  font-family: 'RocaTwoBold', sans-serif;
+  margin-bottom: 3rem;
+}
+
+
+.integrantes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 150px;
+  margin-top: 5%;
+  overflow: visible; 
+}
+
+.integrantes > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: visible;     
+  position: relative;     
+}
+
+
+.img_int {
+  display: block;
+  width: 200px;
+  height: auto; 
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.img_int:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.integrantes h4 {
+  font-size: 1.2rem;
+  color: #393939;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+
+/* faixa rosa quatro de noventa e nove */
+
+
+.faixa_rosa{
+background-color: #ee729d; 
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  z-index: 1000; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.img_faixaRosa{
+ width: 45%;
+}
+  
+/* Processo do grupo */
+
+
+   
+
+.titulo_processo{
+ 
+  font-weight: bold;
+  font-size: 5rem;
+  color: #393939;
+  padding: 5%;
+ font-family: 'RocaTwoBold', sans-serif;
+
+}
+
+.texto_Processo{
+  font-size: 1.5rem;
+  color: #393939;
+  padding: 4%;
+  margin-top: -7%;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_Processo1{
+  width: 20%;
+  margin-left: 70%;
+  margin-top: -3%;
+  z-index: 1;
+
+
+}
+
+.img_Processo2{
+   width: 20%;
+  margin-left: 70%;
+  margin-top: 7%;
+  z-index: 2;
+
+}
+
+.img_Processo3{
+ width: 20%;
+ margin-left: -50%;
+margin-top: -60%;
+
+  z-index: 1;
+}
+
+
+
+.img_faixaAzul{
+  width: 55%;
+  margin-bottom: 15%;
+   margin-left: 20%;
+  margin-top: 10%;
+}
+
+
+
+
